@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.qkdnysg.dynamicload.MainActivity" >
+
+    <Button
+        android:id="@+id/btn_loadJar"
+        android:onClick="loadJar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态加载jar" />
+    
+     <Button
+        android:id="@+id/btn_loadUninstalledAPK"
+        android:onClick="loadUninstalledAPK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态加载未安装APK" />
+     
+      <Button
+        android:id="@+id/btn_loadInstalledAPK"
+        android:onClick="loadInstalledAPK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态加载已安装APK" />
+
+</LinearLayout>
